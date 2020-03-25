@@ -1,0 +1,80 @@
+﻿body {
+    margin: 0 auto;
+    background: rgb(128,45,253);
+    background: linear-gradient(0deg, rgba(128,45,253,0.5970763305322129) 0%, rgba(99,34,195,1) 98%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 250px);
+    gap: 15px;
+    overflow: hidden;
+}
+
+.header {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.8);
+    background-color: #6322c3;
+}
+
+.form {
+    background: rgb(253,244,45);
+    background: linear-gradient(0deg, rgba(253,244,45,1) 4%, rgba(99,34,195,1) 79%);
+    font-family: Century Gothic;
+    border: none;
+    border-radius: 12px;
+    grid-column: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: center;
+    align-self: stretch;
+    padding-top: 3%;
+}
+
+    .form label {
+        margin: 6% 0 5% 15%;
+        margin-bottom: 5%;
+        text-align: right;
+        clear: both;
+        float: left;
+        font-size: large;
+        color: rgb(255,255,255);
+    }
+
+    .form input {
+        margin: 6% 10% 10% 0%;
+        float: right;
+        border: none;
+        border-radius: 3px;
+        font-size: large;
+        width: 40%;
+    }
+
+    .form button {
+        border: solid 0 7px 7px 0;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        font-family: Century Gothic;
+        font-size: large;
+        width: 100%;
+        height: 5%;
+    }
+
+.captionForm {
+    font-family: Century Gothic;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+

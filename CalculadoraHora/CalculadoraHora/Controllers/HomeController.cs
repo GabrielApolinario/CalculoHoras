@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CalculadoraHora.Models;
+using MySql.Data;
 
 namespace CalculadoraHora.Controllers
 {
@@ -13,6 +15,12 @@ namespace CalculadoraHora.Controllers
             return View();
         }
 
-       
+        public ActionResult CalculaHora(Calculo calculo)
+        {
+            
+
+            return View();
+        }
+
     }
 }

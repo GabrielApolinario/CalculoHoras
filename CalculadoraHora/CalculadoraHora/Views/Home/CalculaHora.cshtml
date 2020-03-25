@@ -1,0 +1,68 @@
+﻿@model CalculadoraHora.Models.Calculo
+
+<div>
+    <h4>Calculo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idTransaction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idTransaction)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.result)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.result)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.executionHour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.executionHour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.totalValue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.totalValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.hourPerDay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hourPerDay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.daysPerWeek)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.daysPerWeek)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vacationDays)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vacationDays)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
