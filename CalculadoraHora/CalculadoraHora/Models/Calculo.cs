@@ -14,5 +14,13 @@ namespace CalculadoraHora.Models
 
         public DateTime executionHour { get; set; }
 
+        public double totalValue { get; set; }
+
+        public double hourPerDay { get; set; }
+
+        public double daysPerWeek { get; set; }
+
+        public double vacationDays { get; set; }
+
     }
 }
